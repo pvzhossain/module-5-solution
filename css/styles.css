@@ -230,7 +230,6 @@ h3.menu-item-title {
 /* END SINGLE CATEGORY PAGE */
 
 
-/********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
@@ -238,7 +237,6 @@ h3.menu-item-title {
   }
 }
 
-/********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
@@ -256,8 +254,6 @@ h3.menu-item-title {
   }
   /* End Home Page */
 }
-
-/********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
@@ -267,29 +263,28 @@ h3.menu-item-title {
   /* End Home Page */
 }
 
-/********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 {
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw;
   }
-  .navbar-brand p { /* Kosher cert */
+  .navbar-brand p {
     font-size: .6em;
     margin-top: 12px;
   }
-  .navbar-brand p img { /* Star-K */
+  .navbar-brand p img {
     height: 20px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a {
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span {
     font-size: 1em;
     margin-right: 5px;
   }
@@ -317,7 +312,7 @@ h3.menu-item-title {
     text-align: center;
   }
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0;
   }
   .panel-footer section hr {
     width: 50%;
@@ -345,8 +340,6 @@ h3.menu-item-title {
   }
 }
 
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
